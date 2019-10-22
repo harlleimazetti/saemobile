@@ -1,0 +1,135 @@
+/* righteous-regular - latin */
+@font-face {
+  font-family: 'Righteous';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/righteous-v6-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('Righteous'), local('Righteous-Regular'),
+       url('fonts/righteou3333s-v6-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/righteous-v6-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/righteous-v6-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('fonts/righteous-v6-latin-regular.svg#Righteous') format('svg'); /* Legacy iOS */
+}
+img.logo {
+  margin-top:70px !important;
+  margin-bottom:0 !important;
+}
+.titulo {
+  margin-top:0 !important;
+  font-family: 'Righteous';
+  color: white;
+}
+.texto {
+  font-family: 'Righteous';
+}
+.contorno {
+   -webkit-text-stroke: 1px #2196f3;
+   color: white;
+}
+.opacity-50 {
+  opacity: 0.5 !important;
+}
+.opacity-75 {
+  opacity: 0.75 !important;
+}
+.no-margins {
+  margin:0;
+}
+.no-padding {
+  padding:0 !important;
+}
+.panel_left_header {
+  margin:0 !important;
+  background-image: url("../img/bg_panel_left_header.jpg") !important;
+  background-color: #000;
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 400px !important;
+}
+.panel_left_header .profile_img {
+  border-radius:50% !important;
+  width:50px !important;
+}
+.panel_left_header .block {
+  margin:0 !important;
+  padding: 16px 16px !important;
+}
+.panel_left_header .profile_name, .panel_left_header .profile_email {
+  margin:0 !important;
+}
+.panel_left_content {
+  margin:0 !important;
+}
+.panel_left_content .list, .playlist_sheet_content .list {
+  margin-top:0 !important;
+}
+.panel_left_content .list ul hr {
+  opacity: 0.10 !important;
+  border-top: 1px solid #fff !important;
+  border-bottom:0 !important;
+}
+.panel_left_item_icon {
+  color: #fff !important;
+  opacity: 0.4 !important;
+}
+.login-screen-content {
+  background-image: url("../img/background_white_3.png") !important;
+  background-color: #000;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.login-screen {
+  background-color: #000 !important;
+}
+.center {
+  text-align: center;
+}
+.size-40 { font-size:40px; }
+.size-80 { font-size:80px; }
+.img-slider-estilos-populares {
+  width:100% !important;
+}
+.slide-estilos-populares {
+  border: none !important;
+}
+.slide-estilos-populares h3 {
+  position:absolute !important;
+  color: white !important;
+  top:-1% !important;
+  text-shadow: 1px 1px 2px black, 2px 2px 25px white !important;
+}
+.estilos_musicais div div span img {
+  border-radius: 5px !important;
+  width: 100% !important;
+}
+.estilos_musicais .row {
+  margin-bottom:10px !important;
+}
+.estilos_musicais .estilo_titulo {
+  margin:0 !important;
+}
+.estilos_musicais .estilo_descricao {
+  margin:0 !important;
+  opacity: 0.60 !important;
+}
+.playlist_header img {
+  width: 100% !important;
+}
+.playlist_play {
+  color: gray !important;
+}
+.playlist_options .playlist_option {
+  text-align: center !important;
+}
+.playlist_player {
+  height:120px !important;
+}
+.bg-gray {
+  background: #2d2d2d !important;
+}
+.detail_header {
+  min-height:300px !important;
+}
